@@ -1,36 +1,44 @@
 
+body{
+    background-color:#aaaff3;
+}
+
 a:visited{
-    color: #90b6d4; 
+    color: #6f82d4; 
 }
 
 a:link{
-    color: #90b6d4;
+    text-decoration: none;
+    color: #6f82d4;
 }
 
 
 a:hover{
-    color: #172e58; 
+    color: #132a55; 
 }
 
 
 table{
     border-collapse: collapse;
-    border: 1px solid #90b6d4;
+    border: 1px solid #6fa9d4;
     width: 60%;
+    background-color: white;
     text-align: center;
     table-layout: fixed;
 }
 
 
 .listra {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Anybody';
     border-bottom: 2px solid #16507b ;
 }
 
 
 .titulo{
-    font-family: 'Poppins', sans-serif;
-    color: #16507b;
+    font-family: 'Anybody';
+    color: #6f82d4;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(82, 8, 88);
 }
 
 .center{
@@ -38,6 +46,7 @@ table{
 }
 
 .menus{
+    font-family: 'Anybody';
     background-color: #16507b;
     display: inline-block;
     padding: 6px 12px;
@@ -45,4 +54,79 @@ table{
     border-radius: 8px ;
 }
 
+.estrutura{
+    background-color: pink;
+    border-radius: 20px;
+    width: 320px;
+    height: 300px;
+    display: inline-block;
+}
 
+.estrutura2{
+    background-color: rgb(126, 230, 126);
+    border-radius: 20px;
+    width: 320px;
+    height: 300px;
+    display: inline-block;
+}
+
+.estrutura3{
+    background-color: rgb(126, 230, 221);
+    border-radius: 20px;
+    width: 320px;
+    height: 300px;
+    display: inline-block;
+}
+
+.estrutura4{
+    background-color: rgb(220, 230, 126);
+    border-radius: 20px;
+    width: 320px;
+    height: 300px;
+    display: inline-block;
+}
+.estrutura5{
+    background-color: rgb(230, 126, 126);
+    border-radius: 20px;
+    width: 320px;
+    height: 300px;
+    display: inline-block;
+}
+
+.imagem{
+    padding: auto;
+    border-radius: 8px;
+}
+
+.perfil{
+    border-radius: 400px;
+    position: relative;
+    bottom: 920px;
+    left: 120px;
+}
+
+
+
+#fonte{
+    font-family: 'Anybody';
+    color: white ;
+}
+
+.posiçao{
+    margin-top: 30px;
+}
+
+td{
+    color: black;
+}
+
+th{
+    font-family: 'Anybody';
+    color: #6fa9d4;
+}
+
+
+p{
+    font-family: 'Anybody';
+    color: #6fa9d4; 
+}
