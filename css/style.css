@@ -1,132 +1,51 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1080 px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    width: 100%;
+    padding: 10px;
+}
+
+.logo{
+    width: 25%;
+    height: 25%;
+}
+
 body{
-    background-color:#aaaff3;
+    background-color:#213875;
 }
 
-a:visited{
-    color: #6f82d4; 
-}
-
-a:link{
-    text-decoration: none;
-    color: #6f82d4;
-}
-
-
-a:hover{
-    color: #132a55; 
-}
-
-
-table{
-    border-collapse: collapse;
-    border: 1px solid #6fa9d4;
-    width: 60%;
-    background-color: white;
-    text-align: center;
-    table-layout: fixed;
-}
-
-
-.listra {
-    font-family: 'Anybody';
-    border-bottom: 2px solid #16507b ;
-}
-
-
-.titulo{
-    font-family: 'Anybody';
-    color: #6f82d4;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(82, 8, 88);
-}
-
-.center{
-    text-align: center;
-}
-
-.menus{
-    font-family: 'Anybody';
-    background-color: #16507b;
-    display: inline-block;
-    padding: 6px 12px;
+.menu nav a{
     color: white;
-    border-radius: 8px ;
-}
-
-.estrutura{
-    background-color: pink;
-    border-radius: 20px;
-    width: 320px;
-    height: 300px;
-    display: inline-block;
-}
-
-.estrutura2{
-    background-color: rgb(126, 230, 126);
-    border-radius: 20px;
-    width: 320px;
-    height: 300px;
-    display: inline-block;
-}
-
-.estrutura3{
-    background-color: rgb(126, 230, 221);
-    border-radius: 20px;
-    width: 320px;
-    height: 300px;
-    display: inline-block;
-}
-
-.estrutura4{
-    background-color: rgb(220, 230, 126);
-    border-radius: 20px;
-    width: 320px;
-    height: 300px;
-    display: inline-block;
-}
-.estrutura5{
-    background-color: rgb(230, 126, 126);
-    border-radius: 20px;
-    width: 320px;
-    height: 300px;
-    display: inline-block;
-}
-
-.imagem{
-    padding: auto;
-    border-radius: 8px;
-}
-
-.perfil{
-    border-radius: 400px;
+    text-decoration: none;
+    padding: 0px 50px 10px 0;
+    font-size: 25pt;
     position: relative;
-    bottom: 920px;
-    left: 120px;
 }
 
-
-
-#fonte{
-    font-family: 'Anybody';
-    color: white ;
+nav a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-image: linear-gradient(45deg, #00a2ff, #0026ff);
+    position: absolute;
+    bottom: 0;
+    left: 2px;
+    transition: 0.5s;
 }
 
-.posiçao{
-    margin-top: 30px;
-}
-
-td{
-    color: black;
-}
-
-th{
-    font-family: 'Anybody';
-    color: #6fa9d4;
-}
-
-
-p{
-    font-family: 'Anybody';
-    color: #6fa9d4; 
+nav a:hover::after{
+    width: 80%;
 }
