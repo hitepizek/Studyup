@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+main{
+    position: absolute;
+    top: 30%;
+    left: 17%;
+}
+
+
+.contato{
+    position: relative;
+    top: 300px;
+    font-family: 'Lato', sans-serif;
+}
+
+.fake-btn-contato{
+    position: relative;
+    bottom: 50px;
+    border-color: #ff1c55;
+    left: 390px;
+    height: 50px;
+    width: 20%;
+}
+
+
+.anuncio{
+    width: 20%;
+    height: 800px;
+    background: grey;
+    position: absolute;
+    font-size: 50px;
+    left: 10px;
+}
+
+.img-lugar{
+    position: relative;
+    left: 700px;
+    bottom: 0px;
+    border-radius: 3px;
+}
+
+#position-h2{
+    position: relative;
+    bottom: 25px;
+}
+
+.description{
+    position: relative;
+    top: 20px;
+    left: 0px;
+}
+
+.cabeçalho{
+    position: absolute;
+    left: 15%;
+}
+
+input{
+    border: 1pt solid rgb(15, 15, 15);
+    height: 50px;
+    border-radius: 3px;
+}
+
+input:hover{
+    height: 47px;
+    border-color: #ff1c55;
+}
+
+#submit{
+    background-color: #ff1c55;
+    border-radius: 3px;
+}
+
+main{
+    position: absolute;
+    top: 250px;
+}
+
+.fake-btn{
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    padding: 6px 23px;
+    border: 2px solid white;
+    border-radius: 35px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+.fake-btn:hover{
+    background-color: #ff1c55;
+}
+
+.fake-btn::after{
+    color: black;
+}
+
+.container-landing{
+    max-width: 1080 px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    width: 100%;
+    padding: 10px;
+}
+
+.logo{
+    width: 25%;
+    height: 25%;
+    position: relative;
+}
+
+
+body{
+    background-color:#213875
+}
+
+.menu nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 50px 10px 0;
+    font-size: 25pt;
+    position: relative;
+}
+
+nav a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-image: linear-gradient(45deg, #00a2ff, #0026ff);
+    position: absolute;
+    bottom: 0;
+    left: 2px;
+    transition: 0.5s;
+}
+
+nav a:hover::after{
+    width: 80%;
+}
+
+
+.slider{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+}
+
+.slide img{
+    width: 800px;
+}
+
+
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.manual-btn{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.manual-btn::not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: #ff1c55;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
