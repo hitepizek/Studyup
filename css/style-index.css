@@ -12,42 +12,32 @@ a{
 
 
 main{
-    position: absolute;
-    top: 30%;
-    left: 17%;
+    width: 100%;
+    height: 70%;
 }
+
 
 
 .contato{
     position: relative;
     top: 300px;
+    left: 0px;
     font-family: 'Lato', sans-serif;
 }
 
 .fake-btn-contato{
-    position: relative;
-    bottom: 50px;
+    position: absolute;
+    bottom: 0px;
     border-color: #ff1c55;
     left: 390px;
     height: 50px;
     width: 20%;
 }
 
-
-.anuncio{
-    width: 20%;
-    height: 800px;
-    background: grey;
-    position: absolute;
-    font-size: 50px;
-    left: 10px;
-}
-
 .img-lugar{
-    position: relative;
-    left: 700px;
-    bottom: 0px;
-    border-radius: 3px;
+    position: absolute;
+    top: 250px;
+    right: 70px;
 }
 
 #position-h2{
@@ -63,7 +53,8 @@ main{
 
 .cabeçalho{
     position: absolute;
-    left: 15%;
+    left: 20%;
+    top: 300px;
 }
 
 input{
@@ -82,10 +73,7 @@ input:hover{
     border-radius: 3px;
 }
 
-main{
-    position: absolute;
-    top: 250px;
-}
+
 
 .fake-btn{
     display: inline-block;
@@ -121,7 +109,7 @@ main{
 
 header{
     width: 100%;
-    padding: 10px;
+    padding: 20px, 0;
 }
 
 .logo{
@@ -188,7 +176,7 @@ nav a:hover::after{
 
 
 .manual-navigation{
-    position: absolute;
+    position: relative;
     width: 800px;
     margin-top: -40px;
     display: flex;
@@ -198,7 +186,7 @@ nav a:hover::after{
 
 .manual-btn{
     border: 2px solid rgb(0, 0, 0);
-    padding: 5px;;
+    padding: 7px;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.5s;
@@ -227,4 +215,57 @@ nav a:hover::after{
 
 #radio4:checked ~ .first{
     margin-left: -75%;
+}
+
+
+.startnow-lugar{
+    position: absolute;
+    bottom: 170px;
+    left: 1000px;
+}
+
+.fake-btn-signin{
+    display: inline-block;
+    padding: 6px 23px;
+    border: 2px solid white;
+    border-radius: 35px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.fake-btn-signin:hover{
+    background-color: #ff1c55;
+}
+
+
+.fake-btn-signup{
+    display: inline-block;
+    padding: 6px 23px;
+    border: 2px solid white;
+    border-radius: 35px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.4s;
+    position: relative;
+    left: 115px;
+    bottom: 40px;
+}
+
+.fake-btn-signup:hover{
+    background-color: #ff1c55;
+}
+
+
+
+
+.btn{
+    position: absolute;
+    top: 60px;
 }
